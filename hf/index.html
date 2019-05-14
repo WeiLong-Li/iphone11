@@ -1,0 +1,221 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8"/>
+    <title>思教仁</title>
+    <meta name="keywords" content=""/>
+    <meta name="description" content=""/>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge，chrome=1">
+    <meta http-equiv="pragma" content="no-cache">
+    <meta http-equiv="Cache-Control" content="no-store, must-revalidate">
+    <meta http-equiv="expires" content="Wed, 26 Feb 1997 08:21:57 GMT">
+    <meta http-equiv="expires" content="0">
+    <script>
+        (function () {
+            setFontSize();
+            function setFontSize() {
+                var html = document.documentElement;
+                var windowWidth = html.clientWidth;
+                if (windowWidth <= 750) {
+                    html.style.fontSize = windowWidth / 7.5 + 'px';
+                } else {
+                    html.style.fontSize = '100px';
+                }
+            };
+            window.onresize = setFontSize;
+        })();
+    </script>
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="css/swiper.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css"/>
+    <script src="js/jquery-1.12.4.min.js" type="text/javascript" charset="utf-8"></script>
+    <!-- <script src="js/jquery.lazyload.js"></script> -->
+    <script src="http://chatn5.bjmantis.net/chat/js/dist/mantis.min.js?6112#5cac950a6b9a4979037668b5"></script>
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+    <style>
+        .banner_h5{
+            font-size: 0.25rem;
+           font-weight: 500;
+           margin-top:15px;
+        }
+         body {
+      background: #eee;
+      font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+      font-size: 14px;
+      color:#000;
+      margin: 0;
+      padding: 0;
+    }
+    /*.swiper-container {
+      width: 100%;
+      height: 100%;
+
+    }*/
+    .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      background: #fff;
+
+      /* Center slide text vertically */
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      -webkit-justify-content: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      -webkit-align-items: center;
+      align-items: center;
+    }
+    .swiper-pagination-bullet {
+      width:15px;
+      height:15px;
+    }
+    .questions2{
+        height:1rem !important;
+    }
+    </style>
+</head>
+
+<body>
+<header class="header" onclick="return openJesongChatByGroup(12521,19467);">
+    <ul style="background: #333333">
+        <li onclick="mantis.requestChat()"style="border-right: 1px solid #fff">专科费用</li>
+        <li onclick="mantis.requestChat()"style="border-right: 1px solid #fff">本科费用</li>
+        <li onclick="mantis.requestChat()"style="border-right: 1px solid #fff">报考流程</li>
+        <li onclick="mantis.requestChat()"style="border-right: 1px solid #fff">学历用处</li>
+    </ul>
+</header>
+<section class="banner" style="height:100%;">
+    <h2 class="banner_tit" style="position: relative;">
+        <img class="lazy2" data-original="images/banner_tit.png" src="images/banner.png" width="100%" height="100%" alt=""  onclick="return false"/>
+        <img src="images/banner_button.png" alt=""style="position: relative;top:-1.1rem;margin: 0px auto;width: 2.8rem;"onclick="mantis.requestChat()">
+    </h2>
+    <!-- <div class="banner_p">
+        国家承认正规学历-<strong>学信网终身可查</strong><br>累积为<strong>30万</strong>学员提供学历课程！
+    </div> -->
+      <img src="images/gai.png"style="width:7.5rem;margin-top:-0.7rem;">
+    <div class="banner_box">
+        <!-- <h3 class="banner_h3"> -->
+        
+        <!-- </h3> -->
+        <!-- <h5 class="banner_h3 banner_h5">预计四川政改将在6月实行</h5>
+        <h5 class="banner_h3 banner_h5">政改前最后一次报名截止时间</h5> -->
+        <div class="countdown">
+            <span class="month" id="month"></span><span class="ml12">月</span><span class="day" id="day"></span><span class="ml12">日截止</span>
+        </div>
+        <ul class="banner_ul">
+            <li>
+                <div class="banner_l">
+                   <img src="images/2_3.png" alt=""onclick="mantis.requestChat()">
+                </div>
+            </li>
+            <li>
+                <div class="banner_l">
+                    <img src="images/2_2.png" alt=""onclick="mantis.requestChat()">
+                </div>
+                
+            </li>
+            <li>
+                <div class="banner_l">
+                   <img src="images/2_1.png" alt=""onclick="mantis.requestChat()">
+                </div>
+            </li>
+        </ul>
+    </div>
+    <!-- <button type="button" class="banner_btn_big" onclick="return openJesongChatByGroup(12521,19467);">点击了解2019年学历政策改革预测</button> -->
+</section>
+
+<section class="system"style="background: #fafafa;position: relative;background:#FAFAFA">
+    <!-- <img src="images/ban.png" alt=""style="width: 7.5rem;margin: 0px auto;position: relative;"> -->
+    <div class="system_con"style="z-index: 999;margin:0px 0px;">
+        <img src="images/3_01.png" alt=""style="width: 100%;">
+        <div class=" swiper-container2"style="width:100%;height: 100%;margin-top:0.1rem;overflow: hidden;">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide" style="width:100%;height:100%;"><img src="images/l1 (1).png"style="width: 100%;"></div>
+            <div class="swiper-slide" style="width:100%;height:100%;"><img src="images/l1 (2).png"style="width: 100%;"></div>
+            <div class="swiper-slide" style="width:100%;height:100%;"><img src="images/l1 (3).png"style="width: 100%;"></div>
+            <div class="swiper-slide" style="width:100%;height:100%;"><img src="images/l1 (4).png"style="width: 100%;"></div>
+           <div class="swiper-slide" style="width:100%;height:100%;"><img src="images/l1 (5).png"style="width: 100%;"></div>
+          </div>
+          <!-- <div class="swiper-pagination"></div> -->
+    </div>
+    </div>
+    <!-- <img src="images/blk.png"style="width:7.5rem;height:0.5rem"> -->
+</section>
+<section class="questions questions2"onclick="mantis.requestChat()">
+        <img src="images/z3.png" alt=""style="width: 100%;">
+</section>
+<section class="questions"onclick="" style="position: relative;">
+        <img src="images/z4.png" alt=""style="width: 100%;">
+        <div style="position: absolute;width:3rem;height:0.6rem;left:39%;top:35%;"onclick="mantis.requestChat()"></div>
+         <div style="position: absolute;width:3rem;height:0.6rem;left:39%;top:62%;"onclick="mantis.requestChat()"></div>
+          <div style="position: absolute;width:3rem;height:0.6rem;left:39%;top:89%;"onclick="mantis.requestChat()"></div>
+</section>
+
+<section class="information"style="background: #FAFAFA;position: relative;">
+    <img src="images/z5.png" alt=""style="width: 100%;">
+    <div style="position: absolute;width:2rem;height:0.6rem;left:60%;top:33%;"onclick="mantis.requestChat()"></div>
+    <div style="position: absolute;width:2rem;height:0.6rem;left:60%;top:62%;"onclick="mantis.requestChat()"></div>
+    <div style="position: absolute;width:2rem;height:0.6rem;left:60%;top:90%;"onclick="mantis.requestChat()"></div>
+</section>
+<section class="forecast"onclick="mantis.requestChat()">
+    <img src="images/z6.png" alt=""style="width: 100%">
+   
+</section>
+
+<script src="js/index.js"></script>
+<script>
+    $('.lazy2').lazyload({
+        load: function () {
+            $(this).addClass("flash");
+        }
+    });
+</script>
+<script src="js/swiper.min.js"></script>
+
+<script>
+    var swiper = new Swiper('.swiper-container', {
+        loop: true,
+        slideToClickedSlide:true,
+        slidesPerView: 'auto',
+        centeredSlides: true,
+        spaceBetween:19,
+        autoplay: 2500,
+        autoplayDisableOnInteraction : false,
+         autoplay: {
+            delay: 2500,
+            disableOnInteraction: false,
+          },
+    });
+     var swiper = new Swiper('.swiper-container2', {
+          spaceBetween: 30,
+          centeredSlides: true,
+          autoplay: {
+            delay: 2500,
+            disableOnInteraction: false,
+          },
+          pagination: {
+            el: '.swiper-pagination',
+            clickable: true,
+          },
+          navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+          },
+        });
+</script>
+<!-- <script type="text/javascript" charset="UTF-8" src="http://scripts.jswebcall.com/12521/26085.js"></script>
+<script type="text/javascript" src="http://scripts.jswebcall.com/js/easyliao.js"></script> -->
+</body>
+
+</html>
